@@ -16,4 +16,15 @@
 
 - Best Naming convention of component in React:
     >Always, the first letter of component file name should be in capital and also the name of the component function should  be staring with capital letter.
+    
     >In vite, the component should be in .jsx extension, but in create react app there is no such rules.
+
+
+
+
+## Counter Project
+- Basics aim of this project is to learn about react hooks.
+-hooks was introduce to change or update multiple value in ui at same time.
+-Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+-There are multiple types of hooks but the main are useState(), useEffect(), useMemo(), etc.
+*In Counter Project we use UseState() hooks to update value of counter*  
