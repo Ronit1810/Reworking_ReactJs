@@ -7,15 +7,19 @@ function App() {
   
   // let counter = 15
   const AddCount = () => {
-    counter = counter +1;
-    console.log("Count: ",counter);
-    setCounter(counter)
+    if (counter < 20) {
+      counter = counter +1;
+      console.log("Count: ",counter);
+      setCounter(counter)
+    }
   }
 
   const RemoveCount = () => {
-    counter = counter -1;
-    console.log("Count: ",counter);
-    setCounter(counter)
+    if (counter > 0) {
+      counter = counter -1;
+      console.log("Count: ",counter);
+      setCounter(counter)
+    }
   }
   return (
     <>
