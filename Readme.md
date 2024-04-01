@@ -25,31 +25,31 @@
 ## Counter Project
 - Basics aim of this project is to learn about react hooks.
 
--hooks was introduce to change or update multiple value in ui at same time.
+- hooks was introduce to change or update multiple value in ui at same time.
 
--Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
+- Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.
 
--There are multiple types of hooks but the main are useState(), useEffect(), useMemo(), etc.
+- There are multiple types of hooks but the main are useState(), useEffect(), useMemo(), etc.
 
 *In Counter Project we use UseState() hooks to update value of counter*  
 
 
 
 ## TailwindCSS and Props
--In this project we are implementing **tailwindCSS** and with the help of **props** we can pass the diff values in components
+- In this project we are implementing **tailwindCSS** and with the help of **props** we can pass the diff values in components
 
-***TailwindCSS***
+- ***TailwindCSS***
 
-    -Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI. It is a highly customizable, low-level CSS framework that gives you all of the building blocks that you need. Also, it is a cool way to write inline styling and achieve an awesome interface without writing a single line of your own CSS.
+    > Tailwind CSS is basically a Utility first CSS framework for building rapid custom UI. It is a highly customizable, low-level CSS framework that gives you all of the building blocks that you need. Also, it is a cool way to write inline styling and achieve an awesome interface without writing a single line of your own CSS.
 
-    -For more: tailwindcss.com
+    > For more: tailwindcss.com
 
-***props***
+- ***props***
 
-    -React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
+    > React components use props to communicate with each other. Every parent component can pass some information to its child components by giving them props. Props might remind you of HTML attributes, but you can pass any JavaScript value through them, including objects, arrays, and functions.
 
-    -function(props){} or just destructure the prop function({propsName}){}.
+    > function(props){} or just destructure the prop function({propsName}){}.
 
-    -You can also give default value in case the value is not passed the default value will appear i.e function({propName="defaultValue"}){}
+    > You can also give default value in case the value is not passed the default value will appear i.e function({propName="defaultValue"}){}
 
-    -For Example go through the project.
+    > For Example go through the project.
