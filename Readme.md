@@ -53,3 +53,7 @@
     > You can also give default value in case the value is not passed the default value will appear i.e function({propName="defaultValue"}){}
 
     > For Example go through the project.
+
+
+## BackgroundColor Changer project
+- This project is basically changing background color on clicking the color button, Here we use **useState()** for state management and in the main body we use inline styling for only bgColor so that we can inject javaScript and applied onClick event on button to setColor 
