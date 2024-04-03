@@ -102,3 +102,15 @@ _In Counter Project we use UseState() hooks to update value of counter_
     - here we use **window.navigator.clipboard.writeText(password)** onClick to select the text 'password'. Note here in ReactJs we can access the window but in NextJs we can't it is server side render.
 
     - we also use ***useRef()*** were we create variable and can provide it into input field as ref=''. In this project we use useRef() to select and highlight selected text.
+
+
+
+
+
+## Currency Concertor Project
+
+- ***Custom Hooks***
+  > In this project we learn about how we can make our own customized hook and use as a hook. Let us how we create hooks and fetch data
+    * Hook 01: to create hook just create a function and pass   two parameter function(fn) and dependencies(array [])
+
+    * fetch Data: to fetch data from url ```https://latest.currency-api.pages.dev/v1/currencies/usd.json``` we use use fetch() and pass the url in "``", it also take .then pass response and convert it into .json()
