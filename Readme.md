@@ -114,3 +114,42 @@ _In Counter Project we use UseState() hooks to update value of counter_
     * Hook 01: to create hook just create a function and pass   two parameter function(fn) and dependencies(array [])
 
     * fetch Data: to fetch data from url ```https://latest.currency-api.pages.dev/v1/currencies/usd.json``` we use use fetch() and pass the url in "``", it also take .then pass response and convert it into .json()
+
+
+
+
+
+
+## React Router Dom Project
+
+> ```<Link />``` : Here we use Link instant of `<a>` tag as anchor reload the page re-form browser DOM, but Link take just load the image.
+  - to: String or object that specifies the pathname.
+  - replace: Replaces the pathname in the history stack with new.
+  - innerRef: Passes ref to the element rendered by the component.
+
+> ```<NavLink />```: NavLink is same as Link but with more feature it it and it also don't reload the page.
+  - to, replace, innerRef same as the Link Component.
+  - className: Specifies the CSS class name you want to apply to the element when active.
+  - isActive: Returns boolean value whether the link is active or not.
+  - style: To apply inline CSS.
+  - end: Match the pathname precisely with the URL.
+
+> ```React-Router-Dom```: React Router DOM is a package that provides bindings for using React Router in web applications. React Router is a library that enables declarative routing for React web applications.
+
+> To use React Router DOM, you need to install it in your project by running npm i react-router-dom in the terminal from the root directory of the application
+
+> React Router DOM provides several components and hooks that you can use to create routes, navigate between pages, and access route parameters and query strings.
+
+  - BrowserRouter: A router component that uses the HTML5 history API to keep the UI in sync with the URL.
+  - Routes: A component that renders a set of Route elements based on the current location.
+  - Route: A component that renders some UI when its path matches the current location.
+  - Link: A component that provides declarative navigation around your application.
+  - NavLink: A special version of Link that can style itself as "active" when its path matches the current location
+  - useParams: A hook that returns an object of key/value pairs of URL parameters
+
+> ```Loader and useLoaderData Hook```: 
+
+***Loader*** In React Router DOM, each route can define a "loader" function to provide data to the route element before it renders. The loader function simply reads the result of a fetch React Router manages internally, so you don't need to worry about it refetching when it re-renders for reasons outside of routing. This also means data returned is stable between renders, so you can safely pass it to dependency arrays in React hooks like useEffect.
+
+
+***useLoaderData***This hook provides the value returned from your route loader. After route actions are called, the data will be revalidated automatically and return the latest result from your loader.Note that useLoaderData does not initiate a fetch. It simply reads the result of a fetch React Router manages internally, so you don't need to worry about it refetching when it re-renders for reasons outside of routing.
